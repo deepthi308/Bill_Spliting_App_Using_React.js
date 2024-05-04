@@ -1,0 +1,35 @@
+:root {
+  --BLUE-LIGHT: rgb(219, 255, 255);
+  --BLUE-MODERATE: rgb(4, 255, 255);
+  --BLUE-TRANSPARENT: rgba(4, 255, 255, 0.301);
+  --BLUE-DARK: rgb(0, 146, 146);
+  --BLACK-LIGHT: rgba(0, 0, 0, 0.479);
+  --BLUE-MODAL: rgb(152, 255, 255);
+  --BLACK: black;
+  --WHITE: white;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
